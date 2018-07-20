@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+
+nav{
+	margin: 0;
+	background: white;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: white;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: green;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+/*QUIZ*/
+.quiz{
+  background-image: url("https://2.bp.blogspot.com/-c7WsYMwlw00/VL490c1Sj-I/AAAAAAAANhA/JaID4h2Cn8c/s1600/Nature%2BAnimation.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family:Dosis;
+  font-size:140%;
+  text-align:center;
+  color:white;
+}
+
+.button{
+  padding:20px;
+  border-radius:20px;
+  color:black;
+  font-size:100%;
+  font-family:Dosis;
+}
+
+.button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+

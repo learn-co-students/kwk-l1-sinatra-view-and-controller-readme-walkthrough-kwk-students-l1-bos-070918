@@ -1,0 +1,200 @@
+ 
+   @import url('https://fonts.googleapis.com/css?family=Dosis');
+   @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+   
+
+nav{
+	margin: auto;
+	background: white;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: white;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+  position: absolute;
+  bottom:25px;
+  
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: green;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+  .resources {
+    background-image: url("https://thought-leadership-production.s3.amazonaws.com/2016/10/28/14/29/18/d9cc4e0b-ba5c-44b6-9b4d-5feffab18b26/tnc_56094809_preview_cropped.jpg");
+    background-repeat: no-repeat; background-size: 100% 100%; font-family: Dosis;
+}
+
+h1 {color:#800000; border:6px solid white; text-align:center; font-size: 350%;  width:700px; margin:auto;} 
+
+
+.testing{color:#20B2AA; font-size:150%;}
+
+.intro{color:	#800000; font-size:125%; text-align:center; top: 300px; position: absolute; border-radius:20px; background: #F0FFFF; width:25%; height: 20%; left:100px; top:200px; padding: 25px; position:absolute; text-align:center}
+
+.intro2 {color: #800000; font-size: 125%; text-align:center; border-radius:20px; background:#F0FFFF; width:30%; height: 14%; position:absolute; right:175px; top: 215px; padding:25px}
+
+.intro3 {color:#800000; font-size: 125%; text-align:center; border-radius:20px; background:#F0FFFF; width:30%; height: 10%; position:absolute; left:150px; top:515px; padding:25px }
+
+.intro4 {color:#800000; font-size: 125%; text-align:center; border-radius:20px;background:#F0FFFF;width:20%;height:20%;position:absolute;right:150px;top:480px;padding:25px}
+
+
+
+
+
+
+nav {
+	margin:0;
+	background: white;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: white;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: green;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+/*QUIZ*/
+.quiz{
+  background-image: url("https://2.bp.blogspot.com/-c7WsYMwlw00/VL490c1Sj-I/AAAAAAAANhA/JaID4h2Cn8c/s1600/Nature%2BAnimation.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family:Dosis;
+  font-size:140%;
+  text-align:center;
+  color:white;
+}
+
+.button{
+  padding:20px;
+  border-radius:20px;
+  color:black;
+  font-size:100%;
+  font-family:Dosis;
+}
+
+.button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
